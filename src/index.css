@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-adipura-cream text-adipura-dark font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading;
+  }
+  /* Offset agar judul section tidak tertutup navbar saat diklik dari menu */
+  section[id] {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@layer components {
+  .container-app {
+    @apply mx-auto w-full max-w-6xl px-5;
+  }
+  .section-title {
+    @apply font-heading text-3xl font-extrabold tracking-tight text-adipura-dark sm:text-4xl;
+  }
+  .section-eyebrow {
+    @apply mb-2 inline-block text-sm font-bold uppercase tracking-widest text-adipura-orange;
+  }
+  .btn-wa {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-adipura-orange px-6 py-3 font-heading font-semibold text-white shadow-lg shadow-adipura-orange/30 transition hover:-translate-y-0.5 hover:bg-amber-500 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-adipura-orange/40;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-white/70 px-6 py-3 font-heading font-semibold text-white transition hover:bg-white/10;
+  }
+}
+
+/* Animasi halus muncul saat scroll */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.reveal {
+  opacity: 0;
+}
+.reveal.is-visible {
+  animation: fade-up 0.7s ease-out forwards;
+}

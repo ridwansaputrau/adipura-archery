@@ -1,0 +1,22 @@
+CARA MENGGANTI LOGO & FOTO (untuk pemilik)
+==========================================
+
+LOGO
+----
+- Ganti file "logo.svg" di folder ini dengan logo asli Adipura Archery.
+- Kalau logonya PNG, simpan sebagai "logo.png", lalu beri tahu tim agar
+  menyesuaikan (satu baris kode saja).
+
+FOTO GALERI
+-----------
+1. Taruh foto di folder ini (public), contoh: galeri-1.jpg, galeri-2.jpg, dst.
+2. Buka file: src/data/content.js
+3. Cari bagian "GALERI", isi "src" dengan nama fotonya. Contoh:
+      { src: '/galeri-1.jpg', alt: 'Latihan panahan' },
+
+FOTO PALING ATAS (HERO)
+-----------------------
+- Taruh foto bernama "hero.jpg" di folder ini.
+- Minta tim mengubah latar Hero agar memakai foto tersebut.
+
+Kalau bingung, kirim saja logo & fotonya ke tim — nanti dipasangkan.
