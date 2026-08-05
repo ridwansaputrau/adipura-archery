@@ -187,6 +187,35 @@ export const PRESTASI = [
   'Juara 1 Eliminasi Sukabumi Memanah 2022',
 ]
 
+// Pertanyaan umum (FAQ). Jawaban berdasarkan fakta di company profile.
+// Pertanyaan biaya SENGAJA diarahkan ke WhatsApp (tanpa mencantumkan harga).
+export const FAQ = [
+  {
+    q: 'Apakah pemula boleh ikut latihan?',
+    a: 'Tentu! Kami membina dari nol. Ada Kelas Reguler untuk latihan rutin, dan sesi Private / Fun Archery bagi yang ingin mencoba dulu tanpa komitmen jangka panjang.',
+  },
+  {
+    q: 'Apakah harus punya alat panahan sendiri?',
+    a: 'Tidak perlu. Kami menyediakan busur dan busur latihan (training bow) untuk anggota pemula, jadi bisa langsung mencoba.',
+  },
+  {
+    q: 'Untuk usia berapa saja?',
+    a: 'Terbuka untuk anak-anak, remaja, hingga dewasa. Untuk kesiapan anak, silakan tanyakan langsung ke kami via WhatsApp.',
+  },
+  {
+    q: 'Berapa biaya latihannya?',
+    a: 'Biaya menyesuaikan program yang dipilih. Untuk informasi terbaru, silakan chat WhatsApp kami — dibalas dengan ramah.',
+  },
+  {
+    q: 'Bisa untuk ekstrakurikuler sekolah atau acara perusahaan?',
+    a: 'Bisa. Kami punya program Corporate / School Workshop untuk ekstrakurikuler panahan sekolah maupun fun event perusahaan.',
+  },
+  {
+    q: 'Di mana lokasi latihannya?',
+    a: 'Di Komplek Bumi Adipura, Cluster Cempaka, Rancabolang, Gedebage, Kota Bandung (samping Polsek Gedebage). Lihat peta di bagian Kontak.',
+  },
+]
+
 // Galeri — daftar foto. Ganti "src" dengan foto asli saat sudah dikirim.
 // File diletakkan di folder /public. Untuk sementara pakai penanda (null → placeholder).
 export const GALERI = [

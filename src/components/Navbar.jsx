@@ -10,6 +10,7 @@ const MENU = [
   { label: 'Keunggulan', href: '#keunggulan' },
   { label: 'Prestasi', href: '#prestasi' },
   { label: 'Galeri', href: '#galeri' },
+  { label: 'FAQ', href: '#faq' },
   { label: 'Kontak', href: '#kontak' },
 ]
 

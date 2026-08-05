@@ -8,6 +8,7 @@ import Divisi from './sections/Divisi.jsx'
 import Keunggulan from './sections/Keunggulan.jsx'
 import Prestasi from './sections/Prestasi.jsx'
 import Galeri from './sections/Galeri.jsx'
+import Faq from './sections/Faq.jsx'
 import Kontak from './sections/Kontak.jsx'
 import Footer from './sections/Footer.jsx'
 import { useReveal } from './hooks/useReveal.js'
@@ -26,6 +27,7 @@ export default function App() {
         <Keunggulan />
         <Prestasi />
         <Galeri />
+        <Faq />
         <Kontak />
       </main>
       <Footer />
